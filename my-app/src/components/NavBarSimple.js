@@ -16,7 +16,7 @@ class NavBarSimple extends React.Component {
             console.log('Previous Props', prevProps)
             return {
                 message: prevState.message === "Hello, guest" ? "Welcome back, user" : "Hello, guest",
-                button: prevState.button === "log in!" ? "log out" : "log in",
+                button: prevState.button === "log in" ? "log out" : "log in",
             }
         })
     }
